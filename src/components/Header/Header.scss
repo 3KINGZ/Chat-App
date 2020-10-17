@@ -1,0 +1,16 @@
+.header {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  padding-left: 8px;
+  font-weight: lighter;
+}
+
+.selected-user {
+  font-weight: bold;
+  opacity: 0.8;
+  font-size: 1.3em;
+}
