@@ -1,0 +1,50 @@
+.message-area {
+  padding: 8px 20px;
+  border: 1px solid grey;
+}
+
+.no-message {
+  margin-bottom: 0;
+  opacity: 0.5;
+  font-size: 0.9em;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.inputs {
+  width: 100%;
+  position: fixed;
+  bottom: 10px;
+}
+
+.text-box {
+  width: 90%;
+  padding: 0 6px;
+  margin: auto;
+  height: 40px;
+  max-height: 70px;
+  font-size: 1em;
+  border: 1.5px solid rgb(105, 103, 103);
+  border-radius: 4px;
+}
+
+.send {
+  margin-top: 5px;
+  display: block;
+  background-color: #1998fa;
+  color: #f3f4f4;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  right: 0;
+  cursor: pointer;
+  &:hover {
+    background-color: #0785e6;
+  }
+}
